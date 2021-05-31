@@ -1,0 +1,63 @@
+@import url('https://fonts.googleapis.com/css2?family=Combo&display=swap');
+
+* {
+  box-sizing: border-box;
+}
+
+body {
+    font-family: 'combo';
+    font-size: 18px;
+    text-align: left;
+    background-size: cover;
+  }
+
+
+.header {
+  padding: 0px 0;
+  height: 120px;
+  display: flex;
+  align-items: center;
+}
+
+.logoColumn {
+  float: left;
+  width: 10%;
+  padding: inherit;
+  height: inherit;
+  display: inherit;
+  align-items: inherit;
+}
+
+.nameBrandColumn {
+    float: left;
+    width: 30%;
+    padding: inherit;
+    height: inherit;
+    display: inherit;
+  align-items: inherit;
+}
+
+.linksColumn {
+  float: left;
+  text-align: right;
+  width: 60%;
+  padding: inherit;
+  height: inherit;
+}
+
+.header:after {
+  content: "";
+  display: table;
+  clear: both;
+}
+
+
+.input {
+  font-family: 'combo';
+}
+
+
+.button {
+  font-family: 'combo';
+  border-radius: 5px;
+}

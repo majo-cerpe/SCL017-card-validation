@@ -1,14 +1,52 @@
 <!DOCTYPE html>
 <html>
-  <head>
-    <meta charset="utf-8">
-    <title>Tarjeta de crédito válida</title>
-    <link rel="stylesheet" href="style.css" />
-  </head>
-  <body>
-    <header>Hola</header>
-    <main></main>
-    <footer></footer>
-    <script src="index.js" type="module"></script>
-  </body>
+
+<head>
+  <meta charset="utf-8">
+  <title>Tarjeta de crédito válida</title>
+  <link rel="stylesheet" href="style.css" />
+</head>
+
+<body>
+  <header class="header">
+
+    <div class="logoColumn" style="background-color: #aaa;">
+      <a href="#home"><img src="img/logo.png" width="69.1px" height="82.5px"></a>
+    </div>
+
+    <div class="nameBrandColumn" style="background-color:#bbb;">
+
+      Xxxxxxxxxx
+    </div>
+
+    <div class="linksColumn" style="background-color:#ccc;">
+      <br>
+      <a href="#home">Portada del sitio</a> &nbsp; &nbsp; &nbsp; &nbsp; &nbsp;
+      <a href="#contact">Contáctanos</a> &nbsp; &nbsp; &nbsp; &nbsp; &nbsp;
+      <a href="#about">Sobre Nosotros</a> &nbsp; &nbsp; &nbsp; &nbsp; &nbsp;
+    </div>
+
+  </header>
+
+
+
+  <main>
+
+    <div id="firsPanel" class="flowPanel">
+      <h1></h1>
+    </div>
+    <br><br><br><br><br><br><br><br><br><br><br><br>
+
+    <div id="secondPanel" class="Panel">
+      <h1>Valide los datos de su tarjeta de crédito </h1> <br>
+      <p>Ingrese los 16 dígitos de la parte delantera de su tarjeta de crédito</p>
+      <input type="text" id="creditCardNumber" class="input">
+      <button class="button" id="validationButton">Validar</button>
+    </div>
+
+  </main>
+  <footer></footer>
+  <script src="index.js" type="module"></script>
+</body>
+
 </html>
