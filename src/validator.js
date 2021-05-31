@@ -45,12 +45,8 @@ const validator = { // Objeto validator que contiene las funciones maskify e isV
       , validationResult = false; // declaro variable boolean y la inicializo por defecto en false
 
 
-    if (preservedCreditCardNumber == "") {
-      alert("ingresa tu numero")
-    } else {
-      for (i = 0; i <= preservedCreditCardNumber.length - 1; i++) {  // ciclo for para llenar el array con los números ingresados por el usuario
-        creditCardNumberArray[i] = preservedCreditCardNumber.substr(i, 1);
-      }
+    for (i = 0; i <= preservedCreditCardNumber.length - 1; i++) {  // ciclo for para llenar el array con los números ingresados por el usuario
+      creditCardNumberArray[i] = preservedCreditCardNumber.substr(i, 1);
     }
 
     creditCardNumberReverseArray = creditCardNumberArray.reverse(); // aplico metodo reverse() al array con los números de la tarjeta para invertir el orden de los mismos
@@ -71,14 +67,13 @@ const validator = { // Objeto validator que contiene las funciones maskify e isV
     console.log(creditCardNumberReverseArray);
     console.log(total);
 
-
-
     if (total % 10 == 0) { // condicional if para validar si total es múltiplo de 10
       validationResult = true;
     } else {
       validationResult = false;
     }
     console.log(validationResult);
+
     return validationResult;
 
   }

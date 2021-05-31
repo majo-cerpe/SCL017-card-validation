@@ -2,23 +2,20 @@ import validator from './validator.js';
 
 console.log(validator);
 
+
+
 document.getElementById("creditCardNumber").onkeyup = validator.maskify;
 
 
-document.getElementById("validationButton").onclick = validator.isValid;
-
-
-/*
-
 document.getElementById("validationButton")
     .addEventListener("click", function () {
-        let creditCardNumber = document.getElementById("creditCardNumber").value;
-
-        if (creditCardNumber == "") {
-            alert("ingresa tu numero")
+        let validationResult = validator.isValid();
+        if (document.getElementById("creditCardNumber").value == "") {
+            alert("debes ingresar un número de tarjeta de crédito válido")
+        } else if (validationResult == true) {
+            alert("El número ingresado es válido")
         } else {
-            document.getElementById("validationButton").onclick = validator.isValid;
+            alert("el número ingresado es inválido")
         }
     });
-    
-*/
+
