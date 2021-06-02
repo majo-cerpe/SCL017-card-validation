@@ -10,16 +10,13 @@
 <body>
   <header class="header">
 
-    <div class="logoColumn" style="background-color: #aaa;">
-      <a href="#home"><img src="img/logo.png" width="69.1px" height="82.5px"></a>
+    <div class="logoColumn">
+      <a href="#home"></a>
+      <h1 style="margin-bottom: 0px;">Amanito</h1>
+      <p style="margin-top: 0px;">Papelería</p>
     </div>
 
-    <div class="nameBrandColumn" style="background-color:#bbb;">
-
-      Xxxxxxxxxx
-    </div>
-
-    <div class="linksColumn" style="background-color:#ccc;">
+    <div class="linksColumn">
       <br>
       <a href="#home">Portada del sitio</a> &nbsp; &nbsp; &nbsp; &nbsp; &nbsp;
       <a href="#contact">Contáctanos</a> &nbsp; &nbsp; &nbsp; &nbsp; &nbsp;
@@ -32,20 +29,107 @@
 
   <main>
 
-    <div id="firsPanel" class="flowPanel">
-      <h1></h1>
+    <div class="purchaseFlow">
     </div>
-    <br><br><br><br><br><br><br><br><br><br><br><br>
+<br><br>
+    <div id="firstPanel" class="panel">
+      <h1>Elige tu medio de pago:</h1>
+      <label><input type="radio" name="paymentMethod" value="debito"> Tarjeta de débito</label><br>
+      <label><input type="radio" name="paymentMethod" value="credito"> Tarjeta de crédito</label><br><br><br>
+      <button class="button" id="button1">Aceptar</button>
+    </div>
 
-    <div id="secondPanel" class="Panel">
-      <h1>Valide los datos de su tarjeta de crédito </h1> <br>
-      <p>Ingrese los 16 dígitos de la parte delantera de su tarjeta de crédito</p>
-      <input type="text" id="creditCardNumber" class="input">
+    <div id="secondPanel" class="panel" hidden>
+      <h1>Valida los datos de tu tarjeta de crédito</h1> <br>
+      <input type="text" id="creditCardNumber" placeholder="Número de tarjeta de crédito" class="inputCreditCardNumber">
+      <br><br>
+      <select id="expirationMonth" class="inputExpirationDate">
+        <option disabled selected>Mes de vencimiento</option>
+        <option value="1">Enero</option>
+        <option value="2">Febrero</option>
+        <option value="3">Marzo</option>
+        <option value="4">Abril</option>
+        <option value="5">Mayo</option>
+        <option value="6">Junio</option>
+        <option value="7">Julio</option>
+        <option value="8">Agosto</option>
+        <option value="9">Septiembre</option>
+        <option value="10">Octubre</option>
+        <option value="11">Noviembre</option>
+        <option value="12">Diciembre</option>
+      </select>
+      &nbsp;
+      <select id="expirationYear" class="inputExpirationDate">
+        <option disabled selected>Año de vencimiento</option>
+        <option value="2021">2021</option>
+        <option value="2022">2022</option>
+        <option value="2023">2023</option>
+        <option value="2024">2024</option>
+        <option value="2025">2025</option>
+        <option value="2026">2026</option>
+        <option value="2027">2027</option>
+        <option value="2028">2028</option>
+        <option value="2029">2029</option>
+        <option value="2030">2030</option>
+        <option value="2031">2031</option>
+        <option value="2032">2032</option>
+        <option value="2033">2033</option>
+        <option value="2034">2034</option>
+        <option value="2035">2035</option>
+      </select>
+      <br><br>
+      <input type="text" id="securityCode" placeholder="Código de seguridad" class="inputSecurityCode">
+      <br><br>
       <button class="button" id="validationButton">Validar</button>
     </div>
 
+
+    <div class="purchaseSummary">
+      <h1>Resumen de la compra</h1>
+      <br><br><br><br>
+      <div>
+        <table class="purchaseSummaryTable">
+          <tr>
+            <th>Productos</th>
+            <th>Subtotal</th>
+          </tr>
+          <tr>
+            <td>Set Pinceles Water brush</td>
+            <td>$4.990</td>
+          </tr>
+          <tr>
+            <td>Croquera A3 Cielo Nocturno</td>
+            <td>$10.990</td>
+          </tr>
+        </table>
+      </div>
+      <br><br><br>
+      <div>
+        <table class="purchaseSummaryTable">
+          <tr>
+            <th>Total</th>
+            <th>$15.980</th>
+          </tr>
+        </table>
+      </div>
+
   </main>
+
+  <div id="thirdPanel" class="panel" hidden>
+    <h1>¿En cuántas cuotas quieres pagar?</h1>
+    <label><input type="radio" name="1uotas" value="1Cuotas"> 1 cuota de $15.9803</label><br>
+    <label><input type="radio" name="2cuotas" value="2cuotas"> 2 cuotas de $7.990</label><br>
+    <label><input type="radio" name="3cuotas" value="3cuotas"> 3 cuotas de $5.327</label><br><br><br>
+    <button class="button" id="confirmPurchaseButton">Confirmar compra</button>
+  </div>
+
+  <div id="fourthPanel" class="panel" hidden>
+    <h1>Tu compra se la cursado con éxito</h1>
+    <p>En los próximos minutos llegará un comprobante de la compra a tu correo electrónico </p>
+  </div>
+
   <footer></footer>
+
   <script src="index.js" type="module"></script>
 </body>
 
