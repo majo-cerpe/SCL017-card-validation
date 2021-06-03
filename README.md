@@ -2,14 +2,16 @@
 
 ## Índice
 
-* [1. Resumen del proyecto](## 1. Resumen del proyecto)
-* [2. Preparando el entorno de desarrollo](## 2. Preparando el entorno de desarrollo)
-* [3. Escogiendo el proyecto](## 3. Escogiendo el proyecto)
-* [4. El Usuario](## 4. El Usuario)
-* [5. Prototipado de baja fidelidad](## 5. Prototipado de baja fidelidad.)
-* [6. Prototipado de alta fidelidad](## 6. Prototipado de alta fidelidad.)
-* [7. Codeando](## 7. Codeando)
-* [8. Principales bloqueos mientras codeaba](## 8. Principales bloqueos mientras codeaba)
+* [1. Resumen del proyecto](#1-resumen-del-proyecto)
+* [2. Preparando el entorno de desarrollo](#2-preparando-el-entorno-de-desarrollo)
+* [3. Escogiendo el proyecto](#3-escogiendo-el-proyecto)
+* [4. El Usuario](#4-el-usuario)
+* [5. Prototipado de baja fidelidad](#5-prototipado-de-baja-fidelidad.)
+* [6. Prototipado de alta fidelidad](#6-prototipado-de-alta-fidelidad.)
+* [7. Codeando](#7-codeando)
+* [8. Principales bloqueos mientras codeaba](#8.principales-bloqueos-mientras-codeaba)
+
+***
 
 ## 1. Resumen del proyecto
 
@@ -25,7 +27,7 @@ Antes siquiera de empezar a pensar en que proyecto iba trabajar tuve que instala
 
 Opté por realizar el proyecto Card Validation, principalmente porque le ví una utilidad más práctica, pues en los sitios web de venta siempre hay que validar el formato de ciertos tipos de datos que son ingresados por el usuario y si bien le veo la utilidad pedagógica la proyecto cipher me costaba más imaginarlo siendo utilizado en algún contexto real, principalmente porque la herramienta de cifrado a construir era muy sencilla y hoy existen variados algoritmos de cifrado mucho más seguros.
 
-## 4. El Usuario
+## 4. El usuario
 
 Decidí hacer una validación de tarjeta de crédito para una página de venta de artículos de librería. La decisión de la temática estuvo basada principalmente en los intereses de los potenciales usuarios, en este caso, debido a la pandemia, las personas que tengo más cerca: mis hermanas.
 Antes de hacer en papel mi primer prototipo conversé con mis potenciales usuarios y, además, miré varios ejemplos de páginas web de venta de todo tipo de productos.
