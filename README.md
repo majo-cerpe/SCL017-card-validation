@@ -6,10 +6,10 @@
 * [2. Preparando el entorno de desarrollo](#2-preparando-el-entorno-de-desarrollo)
 * [3. Escogiendo el proyecto](#3-escogiendo-el-proyecto)
 * [4. El Usuario](#4-el-usuario)
-* [5. Prototipado de baja fidelidad](#5-prototipado-de-baja-fidelidad.)
-* [6. Prototipado de alta fidelidad](#6-prototipado-de-alta-fidelidad.)
+* [5. Prototipado de baja fidelidad](#5-prototipado-de-baja-fidelidad)
+* [6. Prototipado de alta fidelidad](#6-prototipado-de-alta-fidelidad)
 * [7. Codeando](#7-codeando)
-* [8. Principales bloqueos mientras codeaba](#8.principales-bloqueos-mientras-codeaba)
+* [8. Principales bloqueos mientras codeaba](#8-principales-bloqueos-mientras-codeaba)
 
 ***
 
